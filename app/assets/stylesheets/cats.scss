@@ -1,3 +1,20 @@
 // Place all the styles related to the cats controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: image-url('top-image.png');
+  background-size: cover;
+  text-align: center;
+  // カラー検討
+}

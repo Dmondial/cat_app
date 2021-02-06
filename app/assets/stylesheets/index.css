@@ -54,7 +54,11 @@
 
 header {
   height: 80px;
+  width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 
 .logo {
@@ -81,4 +85,79 @@ header {
   padding: 0 25px;
   color: white;
   display: block;
+}
+
+.main-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.picture {
+  float: left;
+  width: 25%
+}
+
+.picture-icon {
+  position: relative;
+}
+
+.picture-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #b3aeb5;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  background-color: #5dca88;
+  padding: 15px 40px;
+  cursor: pointer;
+  box-shadow: 2px 4px #1a7940;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message:active {
+  box-shadow: none;
+  position: relative;
+  top: 2px;
+  right: 4px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 15px;
+}
+
+footer {
+  padding-top: 30px;
 }
